@@ -6,7 +6,7 @@ ENV MAIN_PATH=/project
 
 COPY ./requirements.txt /tmp/requirements.txt
 
-RUN pip install --upgrade pip
+#RUN pip install --upgrade pip
 
 RUN pip install -r /tmp/requirements.txt
 
